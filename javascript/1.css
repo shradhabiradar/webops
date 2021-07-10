@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-size: 30px;
+}
+#text{
+    text-align: center;
+    font-size: 100px;
+    color: gray;
+    margin: 20px;
+}
+
+#timer{
+    margin: auto;
+    top: 30px;
+    width: 30%;
+    /* border: 5px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttons{
+    text-align: center;
+    width: 20%;
+    margin: 15px;
+    border-radius: 3px;
+    background-color: rgb(66, 68, 66);
+    /* border: 1px solid grey; */
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(172, 165, 165);
+}
