@@ -1,7 +1,8 @@
+/* by default there is some margin given */
 body{
     margin: 0px;
 }
-
+/* styling of first inner div */
 .first-box{
     width: 35%;
     background-color: rgb(58, 180, 107);
@@ -10,12 +11,16 @@ body{
     text-align: center;
     opacity: 0.5;
 }
+
+/* styling of second inner div */
 .second-box{
     display: inline-block;
     width: 35%;
     background-color: rgba(58, 180, 107, 0.5);
     text-align: center;
 }
+
+/* for responsiveness */
 @media only screen and (max-width: 1024px){
     .first-box{
         margin: 0px;
