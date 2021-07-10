@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+.first-box{
+    width: 35%;
+    background-color: rgb(58, 180, 107);
+    display: inline-block;
+    margin: 0% 10% 0% 10%;
+    text-align: center;
+    opacity: 0.5;
+}
+.second-box{
+    display: inline-block;
+    width: 35%;
+    background-color: rgba(58, 180, 107, 0.5);
+    text-align: center;
+}
+@media only screen and (max-width: 1024px){
+    .first-box{
+        margin: 0px;
+        width: 100%;
+    }
+    .second-box{
+        width: 100%;
+    }
+}
